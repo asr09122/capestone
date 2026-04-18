@@ -1,0 +1,82 @@
+KIRANANET AI — MARKET GUIDELINES & OPERATIONAL BEST PRACTICES
+==============================================================
+
+1. DEMAND FORECASTING METHODOLOGY
+   - Dynamic threshold formula: threshold = (sum_of_last_30_days_sales / 30) * 7
+   - This gives a 7-day buffer stock requirement based on recent daily average.
+   - If current stock < threshold: trigger automatic demand post creation.
+   - Review threshold weekly; adjust for seasonal demand spikes.
+   - Manual override: store owners can post demand even if stock > threshold.
+
+2. STOCK ROTATION PRINCIPLES (FIFO)
+   - Always sell oldest stock first (First In, First Out).
+   - Products approaching expiry: offer 10%–15% discount to move quickly.
+   - Dead stock (no sales for 60+ days): initiate transfer to active market seller.
+   - Stock audit recommended every 30 days.
+
+3. REORDER POINT BEST PRACTICES
+   - Safety stock = daily_avg_sales * 3 (3-day emergency buffer)
+   - Reorder point = threshold + safety_stock
+   - Lead time buffer: add 2 days lead time for inter-city transfers
+   - For high-velocity items (daily_avg > 20 units): maintain 14-day buffer
+
+4. REGIONAL DEMAND PATTERNS
+   - Delhi & NCR: High demand for packaged foods, personal care (urban preference)
+   - Mumbai: Premium brands, processed foods; rice demand spikes Sep–Dec
+   - Bangalore & Pune: Coffee, health-oriented snacks; tech-worker population
+   - Ludhiana & Punjab: Wheat, dairy, mustard oil dominate; agricultural region
+   - Kolkata: Mustard oil highest consumption nationally; rice second staple
+   - Hyderabad & South India: Rice, coconut oil, spices; chilli demand high
+   - Kochi & Kerala: Coconut oil preference; rice as primary grain
+
+5. SEASONAL DEMAND CALENDAR
+   - January: Post-festive slowdown; clear excess stock via transfers
+   - March: Holi season; sugar, dry fruits spike
+   - April–June: Summer; beverages, salt, ORS spike; oil consumption down
+   - July–September: Monsoon; atta, rice stable; fresh produce preferred
+   - October–November: Diwali; sugar, ghee, snacks, dry fruits peak
+   - December: Year-end stocking; all categories up 15%–25%
+
+6. NEGOTIATION GUIDELINES
+   - Maximum 5 rounds of negotiation per transaction.
+   - Round 1: Buyer proposes; Seller counters at standard price.
+   - Round 2–3: Seller may offer 2%–5% discount to close.
+   - Round 4–5: Final offer; auto-reject if no agreement.
+   - "price_too_low" rejection: buyer's offer < seller's floor price.
+   - "stock_unavailable" rejection: seller's stock < requested qty at time of negotiation.
+
+7. TRANSFER ELIGIBILITY RULES
+   - Transferring seller must retain minimum 20% of their own threshold stock after transfer.
+   - Cross-city transfers (>500 km): add logistics cost of ₹2–₹5/kg to transfer price.
+   - Same-city transfers preferred for perishables.
+   - Maximum transfer qty in one transaction: 500 units.
+
+8. HUMAN APPROVAL WORKFLOW
+   - All inter-seller transfers > ₹10,000 value require human approval.
+   - Approval window: 24 hours from suggestion time.
+   - If no approval within 24 hours: demand post remains open; retry matching next day.
+   - Approval triggers: inventory update for both sellers + profit record update.
+
+9. DEMAND POST LIFECYCLE
+   - Status: open → (approved transfer) → fulfilled
+   - Status: open → (no match found) → pending_review
+   - Status: open → (cancelled by seller) → cancelled
+   - Demand posts older than 7 days with status 'open': escalate to wholesale network.
+
+10. QUALITY CONTROL
+    - Sellers must verify product quality before accepting transfers.
+    - Damaged goods: seller may reject transfer at delivery; status set to 'rejected'.
+    - Dispute resolution: raise issue within 48 hours of transfer completion.
+
+11. ANALYTICS & REPORTING
+    - Monthly profit report generated automatically from transactions.
+    - Revenue = sum(agreed_price * qty) for completed transactions in that month.
+    - Cost = sum(cost_price * qty) for same transactions.
+    - Profit = Revenue - Cost.
+    - KPIs tracked: gross margin, stock turnover ratio, demand fulfillment rate.
+
+12. AI AGENT ESCALATION RULES
+    - RAG agent explains: price anomalies, rejection patterns, demand spikes.
+    - SQL agent handles: profit queries, transaction analytics, stock reports.
+    - Demand agent handles: automatic threshold check, demand post creation.
+    - Seller-Seller agent handles: cross-seller stock matching and transfer suggestion.

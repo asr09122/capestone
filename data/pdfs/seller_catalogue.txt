@@ -1,0 +1,141 @@
+KIRANANET AI — SELLER CATALOGUE & PROFILES
+==========================================
+
+1. SHARMA KIRANA (Seller ID: 1)
+   - Location: Delhi
+   - Sector: Retail
+   - Specialization: Grains, Pulses, Spices
+   - Primary Products: Basmati Rice, Moong Dal, MDH Masala, Turmeric, Atta
+   - Average Monthly Revenue: ₹1,50,000–₹2,50,000
+   - Credit Terms: Net 30 days
+   - Min Order Quantity: 10 units
+   - Coverage Zone: South Delhi, Lajpat Nagar, Greater Kailash
+   - Reliability Score: 4.5/5 (high — low rejection rate, fast transfers)
+   - Notes: Strong in festive season stocking; prefers cash or bank transfer.
+
+2. MEHTA WHOLESALE (Seller ID: 2)
+   - Location: Mumbai
+   - Sector: Wholesale
+   - Specialization: Oils, Personal Care, Detergents
+   - Primary Products: Sunflower Oil, Mustard Oil, Surf Excel, Lux Soap, Head & Shoulders
+   - Average Monthly Revenue: ₹5,00,000–₹8,00,000
+   - Credit Terms: Net 45 days (trusted wholesale partner)
+   - Min Order Quantity: 50 units
+   - Coverage Zone: Dharavi, Dadar, Kurla, Turbhe MIDC
+   - Reliability Score: 4.8/5 (very high — largest transfer volumes)
+   - Notes: Key wholesale anchor. Excellent for inter-city transfers. Offers bulk discounts.
+
+3. PATEL GENERAL STORE (Seller ID: 3)
+   - Location: Ahmedabad
+   - Sector: Retail
+   - Specialization: Snacks, Beverages, Sugar
+   - Primary Products: Marie Biscuits, Tata Tea, Nescafe, Sugar, Salt
+   - Average Monthly Revenue: ₹80,000–₹1,40,000
+   - Credit Terms: Net 30 days
+   - Min Order Quantity: 5 units
+   - Coverage Zone: Satellite, Navrangpura, SG Highway
+   - Reliability Score: 4.2/5
+   - Notes: High snack velocity during cricket season and school exam periods.
+
+4. SINGH TRADERS (Seller ID: 4)
+   - Location: Ludhiana
+   - Sector: Wholesale
+   - Specialization: Grains, Wheat Flour, Atta
+   - Primary Products: Wheat Flour, Aashirvaad Atta, Basmati Rice, Chana Dal
+   - Average Monthly Revenue: ₹4,00,000–₹6,00,000
+   - Credit Terms: Net 45 days
+   - Min Order Quantity: 100 units
+   - Coverage Zone: Ludhiana, Jalandhar, Amritsar, Chandigarh
+   - Reliability Score: 4.6/5
+   - Notes: Key grain supplier for Punjab region. Seasonal spikes during wheat harvest.
+
+5. RAO PROVISION (Seller ID: 5)
+   - Location: Bangalore
+   - Sector: Retail
+   - Specialization: Coffee, Personal Care, Spices
+   - Primary Products: Nescafe, Colgate, Red Chilli, Coriander Powder, Turmeric
+   - Average Monthly Revenue: ₹1,20,000–₹2,00,000
+   - Credit Terms: Net 30 days
+   - Min Order Quantity: 10 units
+   - Coverage Zone: Koramangala, HSR Layout, Indiranagar
+   - Reliability Score: 4.3/5
+   - Notes: Coffee and spices dominate; tech-worker demographic. Strong premium brand affinity.
+
+6. GUPTA MART (Seller ID: 6)
+   - Location: Kanpur
+   - Sector: Retail
+   - Specialization: Detergents, Personal Care, Grains
+   - Primary Products: Surf Excel, Lux Soap, Wheat Flour, Rice, Salt
+   - Average Monthly Revenue: ₹90,000–₹1,60,000
+   - Credit Terms: Net 30 days
+   - Min Order Quantity: 15 units
+   - Coverage Zone: Civil Lines, Harsh Nagar, Kakadeo
+   - Reliability Score: 4.1/5
+   - Notes: Mid-tier market; price-sensitive customers. Prefer lower transfer prices.
+
+7. KHAN SUPERSTORE (Seller ID: 7)
+   - Location: Hyderabad
+   - Sector: Wholesale
+   - Specialization: Rice, Spices, Oils
+   - Primary Products: Basmati Rice, Red Chilli, Mustard Oil, Turmeric, Coriander
+   - Average Monthly Revenue: ₹4,50,000–₹7,00,000
+   - Credit Terms: Net 45 days
+   - Min Order Quantity: 50 units
+   - Coverage Zone: Secunderabad, Begumpet, HITECH City, Mehdipatnam
+   - Reliability Score: 4.7/5
+   - Notes: Strong spice and rice supply chain. Key link for South Indian retailers.
+
+8. JOSHI GROCERS (Seller ID: 8)
+   - Location: Pune
+   - Sector: Retail
+   - Specialization: Pulses, Snacks, Beverages
+   - Primary Products: Moong Dal, Chana Dal, Marie Biscuits, Tata Tea, Sugar
+   - Average Monthly Revenue: ₹1,00,000–₹1,80,000
+   - Credit Terms: Net 30 days
+   - Min Order Quantity: 10 units
+   - Coverage Zone: Shivajinagar, FC Road, Kothrud, Baner
+   - Reliability Score: 4.4/5
+   - Notes: Student and IT professional area; high pulse and snack demand.
+
+9. NAIR PROVISION (Seller ID: 9)
+   - Location: Kochi
+   - Sector: Retail
+   - Specialization: Rice, Oils, Spices
+   - Primary Products: Basmati Rice, Mustard Oil, Red Chilli, Coriander, Turmeric
+   - Average Monthly Revenue: ₹1,10,000–₹1,90,000
+   - Credit Terms: Net 30 days
+   - Min Order Quantity: 10 units
+   - Coverage Zone: Fort Kochi, Ernakulam, Aluva, Kakkanad
+   - Reliability Score: 4.5/5
+   - Notes: Dominant in rice and mustard oil. Onam season spikes significantly (+30%).
+
+10. BOSE BROTHERS (Seller ID: 10)
+    - Location: Kolkata
+    - Sector: Wholesale
+    - Specialization: Mustard Oil, Rice, Pulses
+    - Primary Products: Mustard Oil, Basmati Rice, Moong Dal, Chana Dal, Sugar
+    - Average Monthly Revenue: ₹4,00,000–₹6,50,000
+    - Credit Terms: Net 45 days
+    - Min Order Quantity: 50 units
+    - Coverage Zone: Salt Lake, Howrah, Barasat, Ballygunge
+    - Reliability Score: 4.6/5
+    - Notes: Largest mustard oil distributor in East India. Key during Durga Puja.
+
+INTER-SELLER TRANSFER NETWORK
+==============================
+Preferred transfer routes (low logistics cost):
+- Delhi ↔ Kanpur (Sharma Kirana ↔ Gupta Mart): ~420 km, same-day truck
+- Mumbai ↔ Pune (Mehta Wholesale ↔ Joshi Grocers): ~150 km, 4-hour delivery
+- Bangalore ↔ Hyderabad (Rao Provision ↔ Khan Superstore): ~570 km, next-day
+- Kolkata ↔ Kochi (Bose Brothers ↔ Nair Provision): rail freight, 3-day lead time
+- Ludhiana ↔ Delhi (Singh Traders ↔ Sharma Kirana): ~300 km, grain bulk transport
+
+PRODUCT-SELLER AFFINITY MATRIX
+================================
+High-affinity pairs (suggest these for transfers first):
+- Grains: Singh Traders → Sharma Kirana, Bose Brothers
+- Oils: Mehta Wholesale → Khan Superstore, Nair Provision, Bose Brothers
+- Spices: Khan Superstore → Rao Provision, Nair Provision, Sharma Kirana
+- Personal Care: Mehta Wholesale → all retail sellers
+- Pulses: Bose Brothers → Joshi Grocers, Patel General Store
+- Beverages/Snacks: Patel General Store → Gupta Mart, Joshi Grocers

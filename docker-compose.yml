@@ -1,0 +1,45 @@
+version: "3.9"
+
+# RetailFlow AI — full stack docker-compose
+# Usage:
+#   docker compose up --build
+#   FastAPI   → http://localhost:8000/docs
+#   Streamlit → http://localhost:8501
+
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: retailflow-api
+    ports:
+      - "8000:8000"
+    environment:
+      - NVIDIA_API_KEY=${NVIDIA_API_KEY:-}
+      - SECRET_KEY=${SECRET_KEY:-changeme-in-production}
+      - DATABASE_URL=sqlite:////app/data/retailflow.db
+      - DB_PATH=/app/data/retailflow.db
+      - FAISS_INDEX_PATH=/app/data/faiss_index
+      - ALLOWED_ORIGINS=http://localhost:8501
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: retailflow-ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_BASE_URL=http://api:8000
+      - DB_PATH=/app/data/retailflow.db
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped

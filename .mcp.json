@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "retailflow": {
+      "type": "stdio",
+      "command": "C:\\Users\\abhayjotsingh\\OneDrive - Nagarro\\Desktop\\capestone\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\Users\\abhayjotsingh\\OneDrive - Nagarro\\Desktop\\capestone\\mcp_server.py"],
+      "env": {},
+      "description": "RetailFlow AI — inventory, demand, transfers, analytics, and knowledge base tools for retail store B2B supply intelligence"
+    }
+  }
+}

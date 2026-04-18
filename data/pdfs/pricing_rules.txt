@@ -1,0 +1,61 @@
+KIRANANET AI — PRICING RULES & GUIDELINES
+==========================================
+
+1. STANDARD MARKUP POLICY
+   - Minimum markup on FMCG products: 10% above cost price
+   - Maximum markup for retail sellers: 35% above cost price
+   - Wholesale markup range: 8%–20% above cost price
+   - Perishable goods markup: 5%–15% (faster turnover required)
+
+2. ANOMALY DETECTION THRESHOLDS
+   - A billing price is flagged as anomalous if it deviates more than 20% from the
+     30-day rolling average agreed price for the same product and seller.
+   - Price too low: agreed_price < cost_price * 1.05 (below 5% margin)
+   - Price too high: agreed_price > cost_price * 1.60 (above 60% margin)
+   - Action: Flag for review. RAG agent must explain the deviation using
+     historical transaction context.
+
+3. TRANSFER PRICING RULES (Seller-to-Seller)
+   - Minimum transfer price: cost_price * 1.05 (5% above cost)
+   - Maximum transfer price: retail selling_price * 0.90
+   - Preferred transfer price: cost_price * 1.10 to cost_price * 1.20
+   - Emergency stock transfers may carry up to 25% premium during festive seasons.
+
+4. REJECTION THRESHOLDS
+   - "price_too_low" rejection: buyer offers below cost_price * 1.03
+   - "stock_unavailable" rejection: seller stock < requested quantity at time of negotiation
+   - Maximum negotiation rounds before auto-rejection: 5 rounds
+
+5. CATEGORY-SPECIFIC PRICING BANDS
+   - Grains (Rice, Wheat, Atta): Margin 10%–25% retail, 8%–15% wholesale
+   - Oils: Margin 12%–30% retail; subject to market volatility
+   - Pulses: Margin 10%–28%; monitor seasonal price spikes
+   - Snacks & Beverages: Margin 15%–35% (brand premium allowed)
+   - Personal Care: Margin 18%–35% (MRP-bound; don't exceed MRP)
+   - Spices: Margin 20%–40% (high value, low volume)
+   - Detergents: Margin 10%–25%
+
+6. FESTIVE SEASON ADJUSTMENTS
+   - Diwali (Oct–Nov): Sugar, Oil, Snacks +10% demand; allow +5% price premium
+   - Holi (Mar): Colors, Sweets; Grains +8% demand
+   - Ramadan: Rice, Dal +15% demand
+   - Maintain price stability: do not exceed 15% above standard selling price during festivals
+
+7. BULK ORDER DISCOUNTS
+   - Order > 500 units: 3% discount on transfer price
+   - Order > 1000 units: 5% discount on transfer price
+   - Wholesale buyers: additional 2% on orders > 200 units
+
+8. CREDIT TERMS
+   - Standard: Net 30 days
+   - Trusted sellers (>12 months relationship): Net 45 days
+   - New sellers (<3 months): Cash on delivery or advance payment
+
+9. PRICE FLOOR PROTECTION
+   - No product should be sold below its cost price under any circumstances.
+   - If a demand post negotiation would result in below-cost sale, auto-reject.
+
+10. DYNAMIC PRICING TRIGGERS
+    - If stock < 10 units: allow up to 40% markup (scarcity premium)
+    - If stock > 400 units: enforce maximum 20% markup to move inventory
+    - Daily average sales > 50 units: price review recommended weekly

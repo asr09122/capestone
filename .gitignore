@@ -1,0 +1,92 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.python-version
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+# Never commit real secrets — use Azure Key Vault / Container Apps secrets
+.env
+!.env.example
+
+# ── Data directory is fully committed ────────────────────────────────────────
+# DB, FAISS index, and PDFs are all pushed to git and baked into the Docker image.
+# Only exclude SQLite WAL/SHM journal files (temporary, created at runtime).
+data/*.db-shm
+data/*.db-wal
+
+# ── Logs & generated reports ──────────────────────────────────────────────────
+*.log
+*.log.*
+logs/
+reports/
+*.pdf
+
+# ── Test / coverage artifacts ─────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+nosetests.xml
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Claude Code internals ─────────────────────────────────────────────────────
+.claude/
+
+# ── Node (if frontend tooling is added later) ─────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Azure artefacts ───────────────────────────────────────────────────────────
+.azure/

@@ -1,0 +1,47 @@
+# ── Virtual environment (rebuilt inside the image) ────────────────────────────
+.venv/
+venv/
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+.git/
+.gitignore
+.github/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Secrets (set via Azure Container Apps env vars / Key Vault) ───────────────
+.env
+
+# ── SQLite WAL/SHM journal files (temporary, runtime-only) ───────────────────
+data/*.db-shm
+data/*.db-wal
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Test & dev-only scripts (not needed in production image) ──────────────────
+tests/
+scripts/run_tests.py
+scripts/generate_report.py
+scripts/seed_test_data.py
+
+# ── Claude Code internals ─────────────────────────────────────────────────────
+.claude/
+
+# ── Logs & reports ────────────────────────────────────────────────────────────
+*.log
+logs/
+reports/
+
+# ── Docs ──────────────────────────────────────────────────────────────────────
+README.md
+TEST_SCENARIOS.md
