@@ -40,6 +40,10 @@ venv.bak/
 # Only exclude SQLite WAL/SHM journal files (temporary, created at runtime).
 data/*.db-shm
 data/*.db-wal
+tests/
+scripts/run_tests.py
+scripts/generate_report.py
+scripts/seed_test_data.py
 
 # ── Logs & generated reports ──────────────────────────────────────────────────
 *.log
