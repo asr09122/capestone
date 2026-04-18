@@ -200,4 +200,9 @@ def get_network_summary() -> dict:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    import os
+    # Use SSE transport in Docker/server deployments (set MCP_TRANSPORT=sse).
+    # Falls back to stdio for local usage: uv run python mcp_server.py
+    # Port is controlled via FASTMCP_PORT env var (default 8000).
+    transport = os.getenv("MCP_TRANSPORT", "stdio")
+    mcp.run(transport=transport)

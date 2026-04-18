@@ -72,7 +72,14 @@ relevant tables.
 Additional context — this is a kirana store B2B supply network:
 - Always JOIN sellers and products tables to show names instead of raw IDs.
 - Use ₹ with 2 decimal places for all money values in your explanation.
-- profits.month is stored as 'YYYY-MM' — filter by it when the user mentions a time period.""".format(
+- profits.month is stored as 'YYYY-MM' — filter by it when the user mentions a time period.
+
+Response format — STRICT rules, no exceptions:
+- NEVER mention SQL queries, table names, column names, joins, constraints, or how the result was calculated.
+- NEVER explain your methodology or data source.
+- For a SINGLE value: answer in one clean sentence. e.g. "Your profit for April 2026 is ₹89,208.23."
+- For a LIST or TABLE: present data as a clean markdown table or numbered list with no preamble beyond a one-line heading.
+- For a TREND or TIME SERIES: use a compact table with Month and Value columns only.""".format(
         dialect=db.dialect, top_k=5
     )
 
